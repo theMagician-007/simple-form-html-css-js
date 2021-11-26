@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>
+            New User Details
+        </title>
+
+        <link rel = "stylesheet" href = "formstyle.css">
+        <script src="integrating.js"></script>
+
+
+    </head>
+
+<body>
+
+    
+    <p class = "mainhead"><br>Greetings, new user! Fill up the follwing fields to join our wonderful community :) >>></p><br>
+    <hr style="height:0.5px;border-width:0;color:#576164;background-color:#576164"><br>
+    <div class = "entire">
+        <form name = "fillup" onsubmit = "return formVali();">
+                
+                <div class = "form-section">
+
+                    <label for="fname">First Name <font color = "red">*</font></label>   <br>
+                    <input required type = "text" id = "fname" name = "firstname">   <br>
+
+                    <label for="lname">Last Name <font color = "red">*</font></label>   <br>
+                    <input required type = "text" id = "lname" name = "lastname">    <br>
+                    
+                </div>
+
+
+                
+                <div class = "form-section2">
+
+                    <p class = "form-section">Gender <font color = "red">*</font></p>    <br>
+                    <input required type="radio" id="gender" name="gen">
+                    <label for="gender">Male</label>  <br>
+                    <input type="radio" id="gender" name="gen">
+                    <label for="gender">Female</label>  <br>
+                    <input type="radio" id="gender" name="gen">
+                    <label for="gender">Other</label>  <br>
+
+                </div>
+            
+
+                
+                
+                <div class = "form-section">
+
+                    <label for="uniname">Name of University <font color = "red">*</font></label>   <br>
+                    <input required type = "text" id = "uniname" name = "universityname">    <br>
+
+                    <label for="cityname">Your City / State <font color = "red">*</font></label>   <br>
+                    <input required type = "text" id = "cityname" name = "cname">   <br>
+        
+                </div>
+        
+            
+                <div class = "form-section">
+
+                    <label for="email">Email ID <font color = "red">*</font></label>   <br>
+                    <input required type = "email" id = "email" name = "Email">   <br>
+            
+                    <label for="phno">Phone Number <font color = "red">*</font></label>   <br>
+                    <input required type = "number" id = "phno" name = "phoneno">   <br>
+            
+                </div>
+                
+
+                <button type = "submit"  class="submit-btn">SUBMIT</button>    
+
+        </form>
+    
+    </div>
+
+</body>
+
+
+</html>
